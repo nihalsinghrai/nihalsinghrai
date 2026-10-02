@@ -1,16 +1,26 @@
-## Hi there 👋
+# Nihal Singh Rai
 
-<!--
-**nihalsinghrai/nihalsinghrai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-Stack Developer | AI Automation | Agentic AI
 
-Here are some ideas to get you started:
+Building web apps, automation workflows & AI-powered systems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Currently learning
+
+JavaScript, React, Node.js, Python, Django, SQL, APIs, n8n and LangChain.
+
+## What I'm building
+
+- Full-stack web applications
+- AI automation workflows
+- AI agent experiments
+- Practical developer tools
+
+## Tech I'm working with
+
+HTML • CSS • JavaScript • React • Node.js • Python • SQL • APIs • n8n • Git • GitHub
+
+## About
+
+B.Sc. Computer Application graduate focused on building practical software, automation workflows and AI-powered systems.
+
+I document what I build and learn here.
