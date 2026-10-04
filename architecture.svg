@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Software architecture pipeline">
+<defs>
+<pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#151515"/></pattern>
+</defs>
+<rect width="1200" height="360" fill="#050505"/>
+<rect width="1200" height="360" fill="url(#g)"/>
+<g font-family="JetBrains Mono,monospace">
+<text x="40" y="42" fill="#8a8a8a" font-size="11" letter-spacing="2">SYSTEM ARCHITECTURE / REQUEST TRACE</text>
+<g fill="#080808" stroke="#303030">
+<rect x="40" y="120" width="150" height="62"/><rect x="270" y="120" width="150" height="62"/>
+<rect x="500" y="120" width="150" height="62"/><rect x="730" y="120" width="150" height="62"/>
+<rect x="960" y="120" width="150" height="62"/>
+</g>
+<g fill="#f5f5f5" font-size="12" text-anchor="middle">
+<text x="115" y="148">CLIENT</text><text x="345" y="148">API</text><text x="575" y="148">LOGIC</text>
+<text x="805" y="148">DATABASE</text><text x="1035" y="148">AI / OUTPUT</text>
+</g>
+<g fill="#8a8a8a" font-size="9" text-anchor="middle">
+<text x="115" y="165">web · ui</text><text x="345" y="165">rest · auth</text>
+<text x="575" y="165">python · js</text><text x="805" y="165">sql · dbms</text>
+<text x="1035" y="165">llm · systems</text>
+</g>
+<g stroke="#343434" fill="none"><path d="M190 151H270"/><path d="M420 151H500"/><path d="M650 151H730"/><path d="M880 151H960"/></g>
+<g stroke="#bef264" fill="none" stroke-width="2" stroke-dasharray="6 18">
+<path d="M190 151H270"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
+<path d="M420 151H500"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
+<path d="M650 151H730"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
+<path d="M880 151H960"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
+</g>
+<circle r="5" fill="#bef264"><animateMotion dur="6s" repeatCount="indefinite" path="M115 151H1035"/></circle>
+<text x="40" y="250" fill="#555" font-size="10">$ trace --request /project</text>
+<text x="40" y="275" fill="#8a8a8a" font-size="10">→ authenticated</text>
+<text x="40" y="295" fill="#8a8a8a" font-size="10">→ processed</text>
+<text x="40" y="315" fill="#bef264" font-size="10">→ 200 OK</text>
+</g></svg>

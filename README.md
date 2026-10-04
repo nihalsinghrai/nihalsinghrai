@@ -1,21 +1,45 @@
-# Nihal Singh Rai
-Full-Stack Developer | AI Automation | Agentic AI
+<div align="center">
 
-Building web apps, automation workflows & AI-powered systems
+<img src="./assets/hero.svg" alt="Nihal Singh Rai — Full-Stack Developer / AI Engineering" width="100%">
 
-## Currently learning
-JavaScript, React, Node.js, Python, Django, SQL, APIs, n8n and LangChain.
+</div>
 
-## What I'm building
-- Full-stack web applications
-- AI automation workflows
-- AI agent experiments
-- Practical developer tools
+## SYSTEM
 
-## Tech I'm working with
-HTML · CSS · JavaScript · React · Node.js · Python · SQL · APIs · n8n · Git · GitHub
+```text
+FULL-STACK DEVELOPMENT
+AI ENGINEERING
+WEB SYSTEMS
+APIs · DATABASES · AUTOMATION
+```
 
-## About
-B.Sc. Computer Application graduate focused on building practical software, automation workflows and AI-powered systems.
+<img src="./assets/architecture.svg" alt="Software architecture pipeline" width="100%">
 
-I document what I build and learn here.
+## STACK
+
+<img src="./assets/stack.svg" alt="Technical stack layers" width="100%">
+
+## SELECTED BUILDS
+
+| SYSTEM | ROLE | CORE |
+|---|---|---|
+| Project One | Full-stack system | Web · API · Database |
+| Project Two | AI application | AI · API · Backend |
+| Project Three | Web system | Frontend · Backend · Integration |
+
+## ACTIVITY
+
+```text
+$ git status
+system: active
+
+$ build --focus
+web systems → APIs → data → AI
+
+$ deploy
+status: ready
+```
+
+---
+
+**Nihal Singh Rai** · Full-Stack Developer · AI Engineering
