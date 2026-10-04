@@ -1,16 +1,21 @@
-# GitHub Profile — Design 4 / Live Blueprint
+# Nihal Singh Rai
+Full-Stack Developer | AI Automation | Agentic AI
 
-This is the GitHub-compatible asset architecture for the approved Design 4 direction.
+Building web apps, automation workflows & AI-powered systems
 
-## Files
+## Currently learning
+JavaScript, React, Node.js, Python, Django, SQL, APIs, n8n and LangChain.
 
-- `assets/hero.svg` — primary animated hero/system environment
-- `assets/architecture.svg` — animated request/architecture flow
-- `assets/stack.svg` — technical stack layer
-- `README.profile.md` — starter profile README structure
+## What I'm building
+- Full-stack web applications
+- AI automation workflows
+- AI agent experiments
+- Practical developer tools
 
-## GitHub constraints
+## Tech I'm working with
+HTML · CSS · JavaScript · React · Node.js · Python · SQL · APIs · n8n · Git · GitHub
 
-This version intentionally uses Markdown + SVG assets rather than JavaScript, React, or custom page CSS. The original HTML prototype is kept only as a design reference.
+## About
+B.Sc. Computer Application graduate focused on building practical software, automation workflows and AI-powered systems.
 
-> Note: GitHub's rendering/sanitization behavior can affect SVG animation. Every SVG therefore has a readable static first frame; if animation is stripped in the rendered README, the design remains usable.
+I document what I build and learn here.
