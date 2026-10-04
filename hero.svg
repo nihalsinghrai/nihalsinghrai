@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-label="Nihal Singh Rai full-stack developer and AI engineering system">
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#171717" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="fade" x1="0" x2="1">
+    <stop offset="0" stop-color="#050505"/>
+    <stop offset=".5" stop-color="#0a0a0a"/>
+    <stop offset="1" stop-color="#050505"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="1200" height="430" fill="#050505"/>
+<rect width="1200" height="430" fill="url(#grid)">
+  <animate attributeName="x" from="0" to="32" dur="18s" repeatCount="indefinite"/>
+</rect>
+<rect x="18" y="18" width="1164" height="394" rx="2" fill="url(#fade)" stroke="#303030"/>
+
+<g font-family="JetBrains Mono, monospace">
+  <text x="42" y="55" fill="#8a8a8a" font-size="12" letter-spacing="2">DEV.SYSTEM / PROFILE / 01</text>
+  <circle cx="1138" cy="48" r="4" fill="#bef264">
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1153" y="52" fill="#bef264" font-size="10" text-anchor="end">ONLINE</text>
+
+  <text x="42" y="132" fill="#f5f5f5" font-size="48" font-weight="700">FULL-STACK</text>
+  <text x="42" y="184" fill="#f5f5f5" font-size="48" font-weight="700">DEVELOPER</text>
+  <text x="44" y="216" fill="#bef264" font-size="14" letter-spacing="2">AI ENGINEERING · WEB SYSTEMS</text>
+
+  <text x="44" y="265" fill="#8a8a8a" font-size="12">$ system --trace</text>
+  <rect x="44" y="282" width="490" height="1" fill="#303030"/>
+  <text x="44" y="310" fill="#f5f5f5" font-size="12">BUILD → INTEGRATE → AUTOMATE → DEPLOY</text>
+  <text x="44" y="338" fill="#8a8a8a" font-size="11">APIs · DATABASES · AI SYSTEMS · PRODUCTION WEB</text>
+
+  <g transform="translate(650 92)">
+    <rect width="480" height="248" fill="#080808" stroke="#303030"/>
+    <text x="20" y="28" fill="#8a8a8a" font-size="10">LIVE PIPELINE / REQUEST FLOW</text>
+
+    <g stroke="#333" fill="#0a0a0a">
+      <rect x="20" y="55" width="92" height="42"/>
+      <rect x="145" y="55" width="92" height="42"/>
+      <rect x="270" y="55" width="92" height="42"/>
+      <rect x="145" y="150" width="92" height="42"/>
+      <rect x="270" y="150" width="92" height="42"/>
+    </g>
+
+    <g font-size="9" text-anchor="middle">
+      <text x="66" y="80" fill="#f5f5f5">INPUT</text>
+      <text x="191" y="80" fill="#f5f5f5">API</text>
+      <text x="316" y="80" fill="#f5f5f5">LOGIC</text>
+      <text x="191" y="175" fill="#f5f5f5">DATABASE</text>
+      <text x="316" y="175" fill="#f5f5f5">AI</text>
+    </g>
+
+    <g fill="none" stroke="#555" stroke-width="1">
+      <path d="M112 76H145"/><path d="M237 76H270"/>
+      <path d="M316 97V150"/><path d="M270 171H237"/>
+    </g>
+
+    <g fill="none" stroke="#bef264" stroke-width="1.5" stroke-dasharray="8 16">
+      <path d="M112 76H145"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+      <path d="M237 76H270"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+      <path d="M316 97V150"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.4s" repeatCount="indefinite"/></path>
+    </g>
+
+    <circle r="4" fill="#bef264" filter="url(#glow)">
+      <animateMotion dur="4.5s" repeatCount="indefinite" path="M66 76H191H316V171H191"/>
+    </circle>
+    <text x="20" y="224" fill="#8a8a8a" font-size="9">EVENT</text>
+    <text x="20" y="240" fill="#bef264" font-size="10">200 OK</text>
+    <text x="105" y="240" fill="#8a8a8a" font-size="10">request processed</text>
+  </g>
+
+  <text x="44" y="390" fill="#555" font-size="10">github.com/nihalsinghrai</text>
+  <text x="1156" y="390" fill="#555" font-size="10" text-anchor="end">REV 01 · SYSTEM ACTIVE</text>
+</g>
+</svg>
