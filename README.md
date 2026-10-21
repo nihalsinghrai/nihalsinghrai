@@ -38,3 +38,6 @@ WEB SYSTEMS · APIs · DATABASES
 <div align="center">
 <sub>Full-Stack Development · AI Engineering · Learning by building</sub>
 </div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake">
+</div>
