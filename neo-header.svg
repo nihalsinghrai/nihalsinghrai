@@ -1,80 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Nihal Singh Rai — Automation Developer</title>
-  <desc id="desc">Animated dark, grain-textured, blue-accented developer banner.</desc>
-  <defs>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#283343" stroke-width="1"/>
-    </pattern>
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="table" tableValues="0 .20"/></feComponentTransfer>
-    </filter>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7da2ff"/>
-      <stop offset=".55" stop-color="#356dff"/>
-      <stop offset="1" stop-color="#1744b8"/>
-    </linearGradient>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#070a10" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#070a10" stop-opacity=".15"/>
-      <stop offset="1" stop-color="#070a10" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="portraitClip"><path d="M45 360V320C65 272 92 258 128 244L155 218L154 185L143 163L147 111C153 49 195 17 240 21C287 24 316 58 316 110L317 159L304 185L307 218L337 244C374 258 400 282 420 324V360Z"/></clipPath>
-  </defs>
-  <rect width="1200" height="360" fill="#080b11"/>
-  <rect width="1200" height="360" fill="url(#grid)"/>
-  <g fill="none" stroke="#3e78ff" opacity=".75">
-    <path d="M20 280H150V254H210M310 18V74H360M700 42H830V25H940M1010 282H1160V245"/>
-    <path d="M34 45H110M34 55H85M34 65H98" stroke-dasharray="3 6"/>
-    <path d="M720 310H870V290H980" stroke-dasharray="7 7"/>
-  </g>
-  <g opacity=".95">
-    <path d="M255 0H405L330 360H180Z" fill="url(#blue)" opacity=".9"/>
-    <path d="M330 0H356L280 360H254Z" fill="#9ab4ff" opacity=".28"/>
-    <path d="M420 0H475L395 360H340Z" fill="#162b57" opacity=".8"/>
-  </g>
-  <g transform="translate(24 26)" font-family="monospace" font-size="13" fill="#c5d5f4">
-    <text x="0" y="0" fill="#f2f5fc">&gt; github.com/nihalsinghrai</text>
-    <text x="0" y="27">&gt; build</text><text x="0" y="48">&gt; automate</text>
-    <text x="0" y="69">&gt; iterate</text><text x="0" y="90">&gt; grow</text>
-  </g>
-  <!-- The uploaded, real portrait is referenced as an asset in this repository. -->
-  <g>
-    <image xlink:href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp"
-           href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp"
-           x="82" y="10" width="360" height="350" preserveAspectRatio="xMidYMax meet"/>
-    <path d="M88 350L128 310L147 323L176 291L202 307L233 270L258 298L289 278L328 316L363 290L405 350Z"
-          fill="#080b11" opacity=".25"/>
-  </g>
-  <g font-family="monospace">
-    <path d="M455 48H515V40H575" fill="none" stroke="#567fff" stroke-width="1.5"/>
-    <text x="476" y="76" font-size="13" fill="#75a1ff" letter-spacing="3">&lt;/&gt;  AUTOMATION / SYSTEMS</text>
-    <text x="470" y="145" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="900" fill="#f5f6f8" letter-spacing="-2">NIHAL</text>
-    <text x="470" y="204" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900" fill="url(#blue)" letter-spacing="-2">SINGH RAI</text>
-    <rect x="472" y="222" width="322" height="42" fill="none" stroke="#e7edf8" stroke-width="1.5"/>
-    <text x="486" y="249" font-size="19" fill="#f3f5fb" letter-spacing="1.5">AUTOMATION DEVELOPER</text>
-    <text x="474" y="292" font-size="15" fill="#d7deed">Exploring Full-Stack Development</text>
-    <path d="M765 287H808M800 280L808 287L800 294" stroke="#4381ff" stroke-width="2" fill="none"/>
-    <text x="822" y="292" font-size="15" fill="#f2f5fa">AI Engineering</text>
-  </g>
-  <g transform="translate(920 74)" font-family="monospace">
-    <path d="M0 0H245V164H0Z" fill="#090e17" fill-opacity=".68" stroke="#3d77ff"/>
-    <path d="M0 0H58M187 164H245" stroke="#9db7ff" stroke-width="2"/>
-    <text x="18" y="29" fill="#75a1ff" font-size="13">CURRENT TOOLKIT</text>
-    <text x="18" y="59" fill="#e5ebf7" font-size="15">n8n + APIs</text>
-    <text x="18" y="83" fill="#e5ebf7" font-size="15">Python / JavaScript</text>
-    <text x="18" y="107" fill="#e5ebf7" font-size="15">Google Workspace</text>
-    <text x="18" y="131" fill="#e5ebf7" font-size="15">AI / LLM workflows</text>
-  </g>
-  <g font-family="monospace" fill="#a8bbdf" font-size="12">
-    <text x="26" y="330">01 / DESIGN SYSTEM</text>
-    <text x="1168" y="334" text-anchor="end">FOCUS / BUILD / IMPROVE / REPEAT</text>
-  </g>
-  <rect width="1200" height="360" filter="url(#grain)" opacity=".25"/>
-  <rect width="1200" height="360" fill="url(#fade)"/>
-  <g fill="none" stroke="#75a1ff" stroke-width="1.5">
-    <path d="M12 12H30M12 12V30M1188 12H1170M1188 12V30M12 348H30M12 348V330M1188 348H1170M1188 348V330"/>
-    <path d="M448 325H462"><animate attributeName="opacity" values="1;.15;1" dur="1.8s" repeatCount="indefinite"/></path>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340">
+<defs>
+  <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#292d35" stroke-width="1"/></pattern>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer></filter>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8aa8ff"/><stop offset=".55" stop-color="#356dff"/><stop offset="1" stop-color="#1743b6"/></linearGradient>
+  <clipPath id="c"><rect width="1200" height="340"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1200" height="340" fill="#080a0f"/><rect width="1200" height="340" fill="url(#g)"/>
+<path d="M270 0H410L330 340H190Z" fill="url(#b)"/><path d="M385 0H420L340 340H305Z" fill="#8aa8ff" opacity=".2"/>
+<g fill="none" stroke="#477cff" stroke-width="1.5" opacity=".8">
+<path d="M20 252H120V220H180M430 25H490V45H530M720 42H850V25H905M1020 300H1160V260"/>
+<path d="M685 20V320M875 20V320M1060 20V320" stroke-dasharray="3 8" opacity=".4"/>
+<path d="M36 102h65m-65 9h40m-40 9h54"/>
+<path d="M715 75h100m-100 8h70m-70 8h86"/>
+</g>
+<g font-family="monospace" font-size="13" fill="#c8d5f1">
+<text x="26" y="28" fill="#f4f6fb">&gt; github.com/nihalsinghrai</text>
+<text x="30" y="59">&gt; build</text><text x="30" y="80">&gt; automate</text><text x="30" y="101">&gt; iterate</text><text x="30" y="122">&gt; improve</text>
+</g>
+<image xlink:href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp" href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp" x="85" y="2" width="360" height="340" preserveAspectRatio="xMidYMax meet"/>
+<g font-family="monospace">
+<text x="458" y="55" fill="#7da2ff" font-size="13" letter-spacing="3">AUTOMATION / WEB / AI</text>
+<text x="450" y="127" font-family="Arial,Helvetica,sans-serif" font-size="59" font-weight="900" fill="#f3f4f6" letter-spacing="-2">NIHAL</text>
+<text x="450" y="187" font-family="Arial,Helvetica,sans-serif" font-size="59" font-weight="900" fill="url(#b)" letter-spacing="-2">SINGH RAI</text>
+<rect x="454" y="205" width="330" height="40" fill="none" stroke="#f0f3fa" stroke-width="1.5"/>
+<text x="467" y="231" font-size="18" fill="#f3f4f6" letter-spacing="1">AUTOMATION DEVELOPER</text>
+<text x="456" y="277" fill="#dce3f1" font-size="14">Exploring Full-Stack Development</text>
+<path d="M746 272h40m-8-7 8 7-8 7" fill="none" stroke="#4381ff" stroke-width="2"/>
+<text x="800" y="277" fill="#dce3f1" font-size="14">AI Engineering</text>
+</g>
+<g transform="translate(914 67)" font-family="monospace">
+<path d="M0 0H250V170H0Z" fill="#090d15" stroke="#477cff"/>
+<path d="M0 0H60M190 170H250" stroke="#a7bcff" stroke-width="2"/>
+<text x="16" y="27" fill="#7da2ff" font-size="12">CURRENT FOCUS</text>
+<text x="16" y="58" fill="#e7edf8" font-size="15">APIs + automation</text>
+<text x="16" y="83" fill="#e7edf8" font-size="15">JavaScript / Python</text>
+<text x="16" y="108" fill="#e7edf8" font-size="15">Data + integrations</text>
+<text x="16" y="133" fill="#e7edf8" font-size="15">AI-assisted workflows</text>
+</g>
+<g font-family="monospace" font-size="12" fill="#9cb2df"><text x="28" y="319">01 / SYSTEMS THAT HELP</text><text x="1170" y="319" text-anchor="end">FOCUS / BUILD / IMPROVE / REPEAT</text></g>
+<rect width="1200" height="340" filter="url(#noise)" opacity=".22"/>
+<g fill="none" stroke="#8aa8ff" stroke-width="1.5"><path d="M10 10H28M10 10V28M1190 10H1172M1190 10V28M10 330H28M10 330V312M1190 330H1172M1190 330V312"/></g>
+<rect x="0" y="336" width="1200" height="4" fill="#356dff"><animate attributeName="opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></rect>
+</g></svg>
