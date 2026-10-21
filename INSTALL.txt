@@ -1,0 +1,17 @@
+NIHAL SINGH RAI — GITHUB PROFILE README
+
+Files:
+- README.md: copy this into the root of the nihalsinghrai/nihalsinghrai profile repository.
+- assets/neo-header.svg: animated header artwork.
+- assets/nihal-photo.webp: your supplied transparent portrait used by the header.
+
+Install:
+1. Upload README.md to the repository root.
+2. Upload the entire assets folder, preserving filenames and folder structure.
+3. Commit changes and open github.com/nihalsinghrai.
+
+Notes:
+- The header uses an absolute raw.githubusercontent.com URL pointing to the main branch.
+- If your default branch is not main, update the URL in assets/neo-header.svg.
+- Project panels describe concepts/workflows; replace them with repository links when those repos are public.
+- GitHub statistics and typing animations depend on third-party services and may occasionally fail to load.
