@@ -1,45 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="380" viewBox="0 0 1200 380">
 <defs>
-  <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#292d35" stroke-width="1"/></pattern>
-  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer></filter>
-  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8aa8ff"/><stop offset=".55" stop-color="#356dff"/><stop offset="1" stop-color="#1743b6"/></linearGradient>
-  <clipPath id="c"><rect width="1200" height="340"/></clipPath>
+ <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#27303e" stroke-width="1"/></pattern>
+ <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .17"/></feComponentTransfer></filter>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ab5ff"/><stop offset=".55" stop-color="#477dff"/><stop offset="1" stop-color="#1743b8"/></linearGradient>
 </defs>
-<g clip-path="url(#c)">
-<rect width="1200" height="340" fill="#080a0f"/><rect width="1200" height="340" fill="url(#g)"/>
-<path d="M270 0H410L330 340H190Z" fill="url(#b)"/><path d="M385 0H420L340 340H305Z" fill="#8aa8ff" opacity=".2"/>
-<g fill="none" stroke="#477cff" stroke-width="1.5" opacity=".8">
-<path d="M20 252H120V220H180M430 25H490V45H530M720 42H850V25H905M1020 300H1160V260"/>
-<path d="M685 20V320M875 20V320M1060 20V320" stroke-dasharray="3 8" opacity=".4"/>
-<path d="M36 102h65m-65 9h40m-40 9h54"/>
-<path d="M715 75h100m-100 8h70m-70 8h86"/>
-</g>
-<g font-family="monospace" font-size="13" fill="#c8d5f1">
-<text x="26" y="28" fill="#f4f6fb">&gt; github.com/nihalsinghrai</text>
-<text x="30" y="59">&gt; build</text><text x="30" y="80">&gt; automate</text><text x="30" y="101">&gt; iterate</text><text x="30" y="122">&gt; improve</text>
-</g>
-<image xlink:href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp" href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp" x="85" y="2" width="360" height="340" preserveAspectRatio="xMidYMax meet"/>
+<rect width="1200" height="380" fill="#080a0f"/><rect width="1200" height="380" fill="url(#grid)"/>
+<path d="M270 0H420L330 380H180Z" fill="url(#blue)"/><path d="M390 0H425L335 380H300Z" fill="#9ab5ff" opacity=".2"/>
+<g stroke="#477dff" fill="none" opacity=".8"><path d="M18 250H100V220H168M445 26H500V45H545M700 36H835V20H890M1020 318H1170V275"/><path d="M720 20V350M900 20V350M1080 20V350" stroke-dasharray="3 8" opacity=".35"/></g>
+<g font-family="monospace" font-size="14" fill="#d3def4"><text x="25" y="30" fill="#f5f7fc">&gt; github.com/nihalsinghrai</text><text x="26" y="65">&gt; build</text><text x="26" y="88">&gt; automate</text><text x="26" y="111">&gt; improve</text></g>
+<image xlink:href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp" href="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/nihal-photo.webp" x="72" y="12" width="380" height="368" preserveAspectRatio="xMidYMax meet"/>
 <g font-family="monospace">
-<text x="458" y="55" fill="#7da2ff" font-size="13" letter-spacing="3">AUTOMATION / WEB / AI</text>
-<text x="450" y="127" font-family="Arial,Helvetica,sans-serif" font-size="59" font-weight="900" fill="#f3f4f6" letter-spacing="-2">NIHAL</text>
-<text x="450" y="187" font-family="Arial,Helvetica,sans-serif" font-size="59" font-weight="900" fill="url(#b)" letter-spacing="-2">SINGH RAI</text>
-<rect x="454" y="205" width="330" height="40" fill="none" stroke="#f0f3fa" stroke-width="1.5"/>
-<text x="467" y="231" font-size="18" fill="#f3f4f6" letter-spacing="1">AUTOMATION DEVELOPER</text>
-<text x="456" y="277" fill="#dce3f1" font-size="14">Exploring Full-Stack Development</text>
-<path d="M746 272h40m-8-7 8 7-8 7" fill="none" stroke="#4381ff" stroke-width="2"/>
-<text x="800" y="277" fill="#dce3f1" font-size="14">AI Engineering</text>
+ <text x="460" y="58" fill="#8aa8ff" font-size="14" letter-spacing="3">AUTOMATION / WEB / AI</text>
+ <text x="450" y="135" font-family="Arial,Helvetica,sans-serif" font-size="64" font-weight="900" fill="#f4f5f7" letter-spacing="-2">NIHAL</text>
+ <text x="450" y="198" font-family="Arial,Helvetica,sans-serif" font-size="61" font-weight="900" fill="url(#blue)" letter-spacing="-2">SINGH RAI</text>
+ <rect x="455" y="216" width="340" height="43" fill="none" stroke="#f3f5fa" stroke-width="1.5"/>
+ <text x="468" y="244" font-size="18" fill="#f3f5fa" letter-spacing="1">AUTOMATION DEVELOPER</text>
+ <text x="457" y="292" fill="#e0e7f5" font-size="15">Exploring Full-Stack Development</text>
+ <text x="457" y="316" fill="#8aa8ff" font-size="15">→ AI Engineering</text>
 </g>
-<g transform="translate(914 67)" font-family="monospace">
-<path d="M0 0H250V170H0Z" fill="#090d15" stroke="#477cff"/>
-<path d="M0 0H60M190 170H250" stroke="#a7bcff" stroke-width="2"/>
-<text x="16" y="27" fill="#7da2ff" font-size="12">CURRENT FOCUS</text>
-<text x="16" y="58" fill="#e7edf8" font-size="15">APIs + automation</text>
-<text x="16" y="83" fill="#e7edf8" font-size="15">JavaScript / Python</text>
-<text x="16" y="108" fill="#e7edf8" font-size="15">Data + integrations</text>
-<text x="16" y="133" fill="#e7edf8" font-size="15">AI-assisted workflows</text>
-</g>
-<g font-family="monospace" font-size="12" fill="#9cb2df"><text x="28" y="319">01 / SYSTEMS THAT HELP</text><text x="1170" y="319" text-anchor="end">FOCUS / BUILD / IMPROVE / REPEAT</text></g>
-<rect width="1200" height="340" filter="url(#noise)" opacity=".22"/>
-<g fill="none" stroke="#8aa8ff" stroke-width="1.5"><path d="M10 10H28M10 10V28M1190 10H1172M1190 10V28M10 330H28M10 330V312M1190 330H1172M1190 330V312"/></g>
-<rect x="0" y="336" width="1200" height="4" fill="#356dff"><animate attributeName="opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></rect>
-</g></svg>
+<g transform="translate(920 75)" font-family="monospace"><path d="M0 0H250V165H0Z" fill="#090d15" stroke="#477dff"/><path d="M0 0H55M195 165H250" stroke="#9ab5ff" stroke-width="2"/><text x="15" y="27" fill="#8aa8ff" font-size="12">CURRENT FOCUS</text><text x="15" y="58" fill="#e8edf8" font-size="15">APIs + automation</text><text x="15" y="84" fill="#e8edf8" font-size="15">JavaScript / Python</text><text x="15" y="110" fill="#e8edf8" font-size="15">Data + integrations</text><text x="15" y="136" fill="#e8edf8" font-size="15">AI workflows</text></g>
+<g font-family="monospace" font-size="12" fill="#a8bce2"><text x="25" y="356">01 / SYSTEMS THAT HELP</text><text x="1170" y="356" text-anchor="end">BUILD / TEST / IMPROVE</text></g>
+<rect width="1200" height="380" filter="url(#noise)" opacity=".22"/>
+<g fill="none" stroke="#8aa8ff" stroke-width="1.5"><path d="M10 10H28M10 10V28M1190 10H1172M1190 10V28M10 370H28M10 370V352M1190 370H1172M1190 370V352"/></g>
+<rect x="0" y="376" width="1200" height="4" fill="#477dff"><animate attributeName="opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></rect>
+</svg>

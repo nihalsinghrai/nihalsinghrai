@@ -1,9 +1,10 @@
-NEW GITHUB PROFILE README — V3
+MOBILE-FRIENDLIER GITHUB PROFILE README
 
-1) Replace README.md in the root of github.com/nihalsinghrai/nihalsinghrai.
-2) Upload assets/neo-header.svg and assets/nihal-photo.webp, preserving the assets folder.
-3) Commit changes. The header points to the main branch raw asset URL.
-4) If your default branch is not main, change the raw URL in neo-header.svg.
+1. Replace README.md in the root of github.com/nihalsinghrai/nihalsinghrai.
+2. Upload assets/neo-header.svg and assets/nihal-photo.webp, preserving folder structure.
+3. Commit changes and open your profile on mobile and desktop.
 
-The project cards are descriptions, not claims of public repositories. Add real repo links only when available.
-Third-party typing/statistics/activity widgets can occasionally be unavailable.
+Mobile adjustments: one-column sections, no side-by-side tables for core content, stats images stacked, projects in collapsible details.
+The banner is a 1200x380 SVG rendered at width=100%; GitHub may scale it down on phones, so small text in the banner can be harder to read on very narrow screens.
+If your default branch is not main, update the raw image URL in the SVG.
+Third-party stats and typing widgets may occasionally be unavailable.
