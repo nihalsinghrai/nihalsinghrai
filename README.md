@@ -1,87 +1,69 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nihalsinghrai/nihalsinghrai/main/assets/neo-header.svg" width="100%" alt="Nihal Singh Rai — animated developer header"/>
-</div>
 
-<div align="center">
+<img src="./assets/banner.svg" alt="Nihal Singh Rai, automation developer banner" width="100%" />
 
-**AUTOMATION DEVELOPER**  
-*Exploring Full-Stack Development → AI Engineering*
+<br/>
 
-[Portfolio](https://nihalsinghrai.github.io/) · [GitHub](https://github.com/nihalsinghrai) · [LinkedIn](https://www.linkedin.com/in/nihalsinghrai) · [Email](mailto:contact.nihalsinghrai@gmail.com)
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2600&pause=900&color=7DA2FF&center=true&vCenter=true&width=600&lines=Turning+repetitive+work+into+workflows;Connecting+APIs%2C+tools+and+data;Learning+by+building+real+projects;Exploring+AI+engineering" alt="Animated tagline"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=86A8FF&center=true&vCenter=true&width=600&lines=automation+developer;agentic+AI+builder;full+stack+learner" alt="Typing animation of roles" />
 
 </div>
 
----
+<br/>
 
-### `01 / ABOUT`
+## // about
 
-I'm Nihal Singh Rai, an automation developer from India. I focus on practical workflows that reduce repetitive business work — from lead research and reporting to appointment management.
+I build automation, workflows and APIs, with a focus on agentic AI. If a process in your work is repetitive, I can probably turn it into a system that runs itself.
 
-I'm exploring full-stack development to create more complete products, with a longer-term direction toward AI engineering.
+<br/>
 
-[**↗ EXPLORE MY PORTFOLIO**](https://nihalsinghrai.github.io/)
+## // stack
 
-**CONTACT**
-- Email: [contact.nihalsinghrai@gmail.com](mailto:contact.nihalsinghrai@gmail.com)
-- LinkedIn: [linkedin.com/in/nihalsinghrai](https://www.linkedin.com/in/nihalsinghrai)
-- GitHub: [github.com/nihalsinghrai](https://github.com/nihalsinghrai)
+<p>
+  <img src="https://img.shields.io/badge/stack-Python-86a8ff?style=for-the-badge&logo=python&logoColor=07090d" alt="Python" />
+  <img src="https://img.shields.io/badge/stack-JavaScript-86a8ff?style=for-the-badge&logo=javascript&logoColor=07090d" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/stack-PostgreSQL-86a8ff?style=for-the-badge&logo=postgresql&logoColor=07090d" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/stack-MongoDB-86a8ff?style=for-the-badge&logo=mongodb&logoColor=07090d" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/stack-Supabase-86a8ff?style=for-the-badge&logo=supabase&logoColor=07090d" alt="Supabase" />
+  <img src="https://img.shields.io/badge/stack-n8n-86a8ff?style=for-the-badge&logo=n8n&logoColor=07090d" alt="n8n" />
+  <img src="https://img.shields.io/badge/stack-React-86a8ff?style=for-the-badge&logo=react&logoColor=07090d" alt="React" />
+  <img src="https://img.shields.io/badge/stack-Tailwind_CSS-86a8ff?style=for-the-badge&logo=tailwindcss&logoColor=07090d" alt="Tailwind CSS" />
+</p>
 
----
+**Integrations:** Gemini API · WhatsApp Business API · Telegram Bot API · GitHub API · REST APIs
 
-### `02 / SELECTED BUILDS`
+<br/>
 
-<details>
-<summary><strong>01 — Daily Lead Finder</strong></summary>
+## // focus
 
-Lead discovery workflow concept: organise prospects, apply lead-quality checks, store results and send email summaries.
+- Agentic AI workflows with approval steps and error handling
+- Connecting APIs, databases and Google tools into one pipeline
+- Turning manual ops into reliable, low-maintenance automations
 
-`AUTOMATION` `APIs` `GOOGLE SHEETS`
+<br/>
 
-</details>
-
-<details>
-<summary><strong>02 — Dental Booking System</strong></summary>
-
-Appointment workflow concept: booking requests, duplicate checks, payment status, admin approval and notifications.
-
-`BOOKING` `WORKFLOWS` `INTEGRATIONS`
-
-</details>
-
----
-
-### `03 / TOOLKIT`
-
-- **Automation:** n8n, workflow design, API integration
-- **Development:** HTML, CSS, JavaScript, Python
-- **Data:** Google Sheets, SQL, PostgreSQL, MongoDB
-- **Integrations:** REST APIs, Telegram Bot API, Google Workspace
-- **AI:** LLM integrations, structured outputs, AI-assisted workflows
-
----
-
-### `04 / BUILD LOG`
+## // stats
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nihalsinghrai&bg_color=080a0f&color=e7edf8&line=356dff&point=8aa8ff&area=true&area_color=17264a&hide_border=true&custom_title=BUILDING%20IN%20PUBLIC" width="100%" alt="GitHub activity graph"/>
+
+<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=nihalsinghrai&show_icons=true&hide_border=false&bg_color=10131a&title_color=86a8ff&text_color=e4e6ea&icon_color=86a8ff&border_color=e4e6ea&border_radius=0" />
+<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihalsinghrai&layout=compact&bg_color=10131a&title_color=86a8ff&text_color=e4e6ea&border_color=e4e6ea&border_radius=0" />
+
 </div>
 
+<br/>
+
+## // contact
+
+<p>
+  <a href="mailto:contact.nihalsinghrai@gmail.com"><img src="https://img.shields.io/badge/email-contact.nihalsinghrai%40gmail.com-07090d?style=for-the-badge&logo=gmail&logoColor=86a8ff&labelColor=86a8ff" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/nihalsinghrai"><img src="https://img.shields.io/badge/linkedin-nihalsinghrai-07090d?style=for-the-badge&logo=linkedin&logoColor=86a8ff&labelColor=86a8ff" alt="LinkedIn" /></a>
+  <a href="https://x.com/NIHALSINGHRAI_"><img src="https://img.shields.io/badge/x-NIHALSINGHRAI__-07090d?style=for-the-badge&logo=x&logoColor=86a8ff&labelColor=86a8ff" alt="X" /></a>
+</p>
+
+Open to automation and AI agent work. Send a short note about the process you want to automate.
+
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nihalsinghrai&show_icons=true&hide_border=true&bg_color=080a0f&title_color=8aa8ff&text_color=e7edf8&icon_color=477cff&rank_icon=github" width="100%" alt="GitHub statistics"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihalsinghrai&layout=compact&hide_border=true&bg_color=080a0f&title_color=8aa8ff&text_color=e7edf8" width="100%" alt="Top languages"/>
-</div>
-
----
-
-<div align="center">
-
-`FOCUS` / `BUILD` / `IMPROVE` / `REPEAT`
-
-**Useful systems over empty hype.**
-
-[nihalsinghrai.github.io](https://nihalsinghrai.github.io/)
-
+<sub>© Nihal Singh Rai · nihalsinghrai</sub>
 </div>
