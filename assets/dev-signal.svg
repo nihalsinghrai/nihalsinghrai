@@ -1,0 +1,106 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#343945" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="noise" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="23" r="0.8" fill="#fff" opacity=".15"/>
+      <circle cx="65" cy="71" r="0.7" fill="#fff" opacity=".12"/>
+      <circle cx="82" cy="14" r="0.6" fill="#fff" opacity=".12"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen">
+      <rect x="258" y="84" width="384" height="192" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="360" fill="#0c0d11"/>
+  <rect width="900" height="360" fill="url(#grid)"/>
+  <rect width="900" height="360" fill="url(#noise)"/>
+
+  <!-- Neo-brutalist offset frame -->
+  <rect x="246" y="73" width="408" height="216" fill="#3f5c9e"/>
+  <rect x="238" y="65" width="408" height="216" fill="#e8eaf0"/>
+  <rect x="246" y="73" width="392" height="200" fill="#14161d" stroke="#e8eaf0" stroke-width="2"/>
+
+  <!-- Terminal header -->
+  <rect x="246" y="73" width="392" height="30" fill="#e8eaf0"/>
+  <circle cx="261" cy="88" r="4" fill="#3f5c9e"/>
+  <circle cx="275" cy="88" r="4" fill="#0c0d11"/>
+  <circle cx="289" cy="88" r="4" fill="#8ea6d9"/>
+  <text x="310" y="92" fill="#0c0d11" font-family="monospace" font-size="11" font-weight="bold">DEV_SYSTEM / ACTIVE</text>
+
+  <!-- Terminal content -->
+  <g clip-path="url(#screen)" font-family="monospace" font-size="12">
+    <text x="266" y="125" fill="#8ea6d9">$ initialize_developer()</text>
+    <text x="266" y="150" fill="#e8eaf0">loading modules...</text>
+    <text x="266" y="175" fill="#8ea6d9">[OK] API connections</text>
+    <text x="266" y="200" fill="#8ea6d9">[OK] automation engine</text>
+    <text x="266" y="225" fill="#e8eaf0">building useful systems</text>
+    <text x="266" y="250" fill="#8ea6d9">$ _</text>
+    <rect x="283" y="239" width="8" height="15" fill="#8ea6d9">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Animated circuit traces -->
+  <g fill="none" stroke="#3f5c9e" stroke-width="2">
+    <path d="M238 130H170V88H90"/>
+    <path d="M238 210H142V260H74"/>
+    <path d="M646 130H714V85H804"/>
+    <path d="M646 215H730V270H826"/>
+    <path d="M450 65V35H500"/>
+    <path d="M450 281V315H400"/>
+  </g>
+
+  <g fill="#8ea6d9" filter="url(#glow)">
+    <circle cx="170" cy="130" r="4">
+      <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="142" cy="210" r="4">
+      <animate attributeName="r" values="4;7;4" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="714" cy="130" r="4">
+      <animate attributeName="r" values="3;6;3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="730" cy="215" r="4">
+      <animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Orbiting data node -->
+  <g transform="translate(450 178)">
+    <ellipse rx="102" ry="38" fill="none" stroke="#3f5c9e" stroke-width="1.5" transform="rotate(-24)"/>
+    <ellipse rx="102" ry="38" fill="none" stroke="#8ea6d9" stroke-width="1" stroke-dasharray="5 9" transform="rotate(24)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="24" fill="#3f5c9e" stroke="#e8eaf0" stroke-width="2"/>
+    <path d="M-10 -7L-2 0L-10 7M3 7H12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="square"/>
+    <circle cx="0" cy="-38" r="5" fill="#8ea6d9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Corner labels -->
+  <g font-family="monospace" font-size="10" fill="#e8eaf0">
+    <text x="28" y="34">NSR / 001</text>
+    <text x="28" y="50" fill="#8a909c">SYSTEMS THINKING</text>
+    <text x="872" y="34" text-anchor="end">BUILD MODE</text>
+    <text x="872" y="50" text-anchor="end" fill="#8a909c">AUTOMATION / AI</text>
+    <text x="28" y="330" fill="#8ea6d9">[ PROCESS RUNNING ]</text>
+    <text x="872" y="330" text-anchor="end">NO SNAKE // JUST CODE</text>
+  </g>
+
+  <!-- Moving scan line -->
+  <rect x="246" y="104" width="392" height="2" fill="#8ea6d9" opacity=".55">
+    <animate attributeName="y" values="104;270;104" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative hard-edge markers -->
+  <path d="M20 80V20H80M820 20H880V80M20 280V340H80M820 340H880V280"
+        fill="none" stroke="#e8eaf0" stroke-width="3"/>
+</svg>
