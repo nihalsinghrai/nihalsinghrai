@@ -162,3 +162,21 @@ Python · Git · GitHub
 <sub>NIHAL SINGH RAI · AUTOMATION / DEVELOPMENT / AI</sub>
 
 </div>
+
+## `05 / DEVELOPER SIGNAL`
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nihalsinghrai&bg_color=0c0d11&color=e8eaf0&line=3f5c9e&point=8ea6d9&area=true&area_color=17203a&hide_border=true&custom_title=LIVE%20BUILD%20TIMELINE"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=13&duration=2200&pause=500&color=8EA6D9&center=true&vCenter=true&width=400&lines=%3E+INITIALIZING+SYSTEMS...;%3E+CONNECTING+APIS...;%3E+BUILDING+AUTOMATIONS...;%3E+ITERATING+EVERY+DAY..." alt="Animated coding status"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/SYSTEM-ITERATING-3f5c9e?style=for-the-badge&labelColor=0c0d11"/>
+<img src="https://img.shields.io/badge/MODE-BUILD-8ea6d9?style=for-the-badge&labelColor=0c0d11"/>
+
+</div>
+
